@@ -6,6 +6,24 @@ export async function getAll(){
     return data.rows
 }
 
+export async function tryout(){
+    const users = [
+  { id: 0, username: "Agatha" },
+  { id: 1, username: "Barbara" },
+  { id: 2, username: "Chase" },
+  { id: 3, username: "David" },
+  { id: 4, username: "Elvis" },
+  { id: 5, username: "Fiona" },
+  { id: 6, username: "Greg" },
+  { id: 7, username: "Harry" },
+  { id: 8, username: "Ivan" },
+  { id: 9, username: "John" },
+  { id: 10, username: "Kiera" },
+];
+
+return users
+}
+
 export async function insertItem(newItem){
     const item =newItem.item;
     const store =newItem.store;

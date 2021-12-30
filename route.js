@@ -8,6 +8,11 @@ router.get('/',async (req,res)=>{
     res.json({success:true,'payload':data})
 })
 
+router.get('/what',async (req,res)=>{
+    const data = await functionality.tryout()
+    res.json({success:true,payload:data})
+})
+
 router.post('/',async (req,res)=>{
     const what = req.body;
     const data = await functionality.insertItem(what)

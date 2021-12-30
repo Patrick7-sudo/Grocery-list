@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Grocery</title>
+</head>
+<body>
+    <main>
+        <section class="grocery-Database">
+            <h1 class="header">Grocery Database</h1>
+            <div class="grocery-Database-form">
+                <form action="">
+                    <!-- enter grocery,shop name, price,weight, addbutton -->
+                    <input type="text" id='itemName'name="itemName" placeholder="item">
+
+                    <input type="text" id='shopName' name="shopName" placeholder="grocery name">
+
+                    <input type="text" id='price' name="price" placeholder="£1">
+
+                    <input type="text" id='weight' name="weight" placeholder="500g">
+
+                    
+                    <input type="submit" id='submitBtn' value="ADD">
+                </form>
+            </div>
+
+            <!-- item input database list -->
+            <div class="grocery-Database-input">
+
+                <!-- individual data -->
+                <div class="grocery-Database-input_item">
+                    <div class="grocery-Database-input_item_data">
+                        <div class="grocery-Database-input_item_data-name">
+                            <div>Ramyeon</div>
+                        </div>
+                        <div class="grocery-Database-input_item_data-information">
+                            <div id="data-info-storename">seeWoo</div>
+                            <div id="data-info-weight">500g</div>
+                            <div id="data-info-price">£4</div>
+                        </div>
+                
+                    </div>
+                    <div class="grocery-Database-input_symbol">
+                        <button type="button" class="btn">
+                            <i class="fas fa-plus-square"></i>
+                        </button>
+                        <button type="button" class="btn">
+                            <i class="fas fa-edit" id="edit"></i>
+                        </button>
+                        <button type="button" class="btn">
+                            <i class="fas fa-times" id="cross"></i>
+                        </button>
+                    </div>
+                </div>
+                <!-- end of individual data -->
+
+                <!-- individual data -->
+                <div class="grocery-Database-input_item">
+                    <div class="grocery-Database-input_item_data">
+                        <div class="grocery-Database-input_item_data-name">
+                            <div>Ramyeon</div>
+                        </div>
+                        <div class="grocery-Database-input_item_data-information">
+                            <div id="data-info-storename">seeWoo</div>
+                            <div id="data-info-weight">500g</div>
+                            <div id="data-info-price">£4</div>
+                        </div>
+                
+                    </div>
+                    <div class="grocery-Database-input_symbol">
+                        <button type="button" class="btn">
+                            <i class="fas fa-plus-square"></i>
+                        </button>
+                        <button type="button" class="btn">
+                            <i class="fas fa-edit" id="edit"></i>
+                        </button>
+                        <button type="button" class="btn">
+                            <i class="fas fa-times" id="cross"></i>
+                        </button>
+                    </div>
+                </div>
+                <!-- end of individual data -->
+
+                <!-- individual data -->
+                <div class="grocery-Database-input_item">
+                    <div class="grocery-Database-input_item_data">
+                        <div class="grocery-Database-input_item_data-name">
+                            <div>Ramyeon</div>
+                        </div>
+                        <div class="grocery-Database-input_item_data-information">
+                            <div id="data-info-storename">seeWoo</div>
+                            <div id="data-info-weight">500g</div>
+                            <div id="data-info-price">£4</div>
+                        </div>
+                
+                    </div>
+                    <div class="grocery-Database-input_symbol">
+                        <button type="button" class="btn">
+                            <i class="fas fa-plus-square"></i>
+                        </button>
+                        <button type="button" class="btn">
+                            <i class="fas fa-edit" id="edit"></i>
+                        </button>
+                        <button type="button" class="btn">
+                            <i class="fas fa-times" id="cross"></i>
+                        </button>
+                    </div>
+                </div>
+                <!-- end of individual data -->
+
+               
+             
+
+                <button type="button" class="btn-clearAll">
+                    CLEAR ALL
+                </button>
+            </div>
+            <!-- end of item input database list -->
+
+           
+        </section>
+
+        <!-- grocery list section -->
+        <section class="grocery-list">
+            <h1 class="header">Grocery List</h1>
+            <div class="grocery-list-input">
+                <!-- individual data -->
+                <div class="grocery-list-input_item">
+                    <div class="grocery-list-input_item_data">
+                        <div class="grocery-list-input_item_data-name">
+                            <div>galangal</div>
+                        </div>
+                        <div class="grocery-list-input_item_data-information">
+                            <div id="list-info-storename">sainsbury</div>
+                            <div id="list-info-weight">500g</div>
+                            <div id="list-info-price">£0.70</div>
+                        </div>
+                
+                    </div>
+                    <div class="grocery-list-input_symbol">
+                        <button type="button" class="btn-list">
+                            <i class="fas fa-times" id="crosslist"></i>
+                        </button>
+                    </div>
+                </div>
+                <!-- end of individual data -->
+
+                <!-- individual data -->
+                <div class="grocery-list-input_item">
+                    <div class="grocery-list-input_item_data">
+                        <div class="grocery-list-input_item_data-name">
+                            <div>galangal</div>
+                        </div>
+                        <div class="grocery-list-input_item_data-information">
+                            <div id="list-info-storename">sainsbury</div>
+                            <div id="list-info-weight">500g</div>
+                            <div id="list-info-price">£0.70</div>
+                        </div>
+                
+                    </div>
+                    <div class="grocery-list-input_symbol">
+                        <button type="button" class="btn-list">
+                            <i class="fas fa-times" id="crosslist"></i>
+                        </button>
+                    </div>
+                </div>
+                <!-- end of individual data -->
+              
+            </div>
+            <div class="grocery-list-input_total">
+                <p>Total: £32.00</p>
+            </div>
+            <button type="button" class="btn-clearAllList">
+                CLEAR ALL
+            </button>
+        </section>
+        <!-- grocery list section --> 
+    </main>
+</body>
+</html>

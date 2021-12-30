@@ -4,7 +4,7 @@ import router from './route.js'
 
 const app = express();
 app.use(express.json())
-app.use('/',router)
+app.use('/hello',router)
 // app.get('/',async (req,res)=>{
 //     const data = await query(`SELECT * FROM grocery`)
 //     res.json({success:true,'payload':data.rows})
@@ -40,7 +40,7 @@ app.use('/',router)
 //     console.log(data.rows)
 //     return res.json({"paylod":final})
 // })
-
+export default app;
 app.listen(3000 ,()=>{
     console.log(`connected to server`)
 })
